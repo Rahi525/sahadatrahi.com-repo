@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+.body{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+section{
+	width:101%;
+	height:100vh;
+	background: size 100px;
+	background-repeat:no-repeat;
+	position: absolute;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	height:60px;
+	background-color:#0d334d;
+	box-shadow:2px 2px 12px rgba(255, 255, 255, 0.2);
+	padding:0px 25%;
+	
+}
+nav ul{
+	display: flex;
+}
+.toggle{
+	display: none;
+}
+ 
+nav ul li a{
+	margin:30px;
+	font-family:myriad pro regular;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight:300;
+    
+}
+
+
+.active1{
+	color:#ffffff;
+	font-weight:100;
+}
+
+.active2{
+	color:#ffffff;
+	font-weight:100;
+}
+
+.active3{
+	color:#ffffff;
+	font-weight:100;
+}
+
+.active4{
+	color:#ffffff;
+	font-weight:100;
+}
+
+button:active{
+	transform:scale(1.1);
+
+}
+.container1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1000px;
+    padding: 30px;
+    background-color: #0d334d;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0.2);
+}
+.circle{
+    width: 500px;
+    height: 500px;
+    background: url(imgg2.jpg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0;
+}
+h1{
+    margin: 0 0 20px;
+    padding: 0%;
+    font-size: 30px;
+    color: #ffffff;
+    
+}
+p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    line-height: 20px;
+    color: #ffffff;
+
+}
+.container2{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    padding: 30px;
+    background-color: #0d334d;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0,0,0.2);
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 15px;
+    margin-top: 1000px;
+    margin-bottom: 0%;
+    background-color: #001b4b;
+    border-top: 1px solid #272729;
+}
+.copyright{
+    color:#ffffff;
+    
+}

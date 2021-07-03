@@ -1,0 +1,308 @@
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+}
+
+	
+	.body{
+		margin:0;
+		padding:0;
+	}
+	ul{
+		list-style:none;
+	}
+	a{
+		text-decoration:none;
+	}
+	section{
+		width:100%;
+		height:100vh;
+   	 	background-image: url("model.png");
+		background: size 100px;
+		background-repeat:no-repeat;
+		position: absolute;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		height:60px;
+		background-color:#0d334d;
+		box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+		padding:0px 25%;
+	
+	}
+	nav ul{
+		display: flex;
+	}
+	.toggle{
+		display: none;
+	}
+	
+	nav ul li a{
+		margin:30px;
+		font-family:myriad pro regular;
+		color:#ffffff;
+		font-size: 15px;
+		font-weight:700;
+		
+	}
+
+	.active1{
+		color:#ffffff;
+		font-weight:100;
+	}
+
+	.active2{
+		color:#ffffff;
+		font-weight:100;
+	}
+
+	.active3{
+		color:#ffffff;
+		font-weight:100;
+	}
+
+	.active4{
+		color:#ffffff;
+		font-weight:100;
+	}
+	.model{
+		height:330px;
+		position:absolute;
+		bottom:40px;
+		left:100%;
+		transform: translateX(-75%);
+	}
+	.text-container p:nth-child(1){
+		font-family: calibri;
+		font-weight:bold;
+		color:#0d334d;
+		font-size:22px;
+		position: relative;
+		right: 15%;
+	}
+	.text-container p:nth-child(2){
+		font-family:calibri;
+		font-weight:bold;
+		letter-spacing:1px;
+		color:#0d334d;
+		font-size:40px;
+		position: relative;
+		right: 15%;
+		
+	}
+	.text-container p:nth-child(3){
+		font-family: myriad pro regular;
+		color: #0d334d;
+		font-size:30px;
+		line-height:30px;
+		position: relative;
+		right: 15%;
+	}
+	
+	.text-container p{
+		margin:45px 0px 25px;
+		line-height:0px;
+	}
+	.text-container button{
+		width:130px;
+		height:42px;
+		border-radius:10px;
+		font-family:calibri;
+		font-weight:bold;
+		font-size: 14px;
+		outline:none;
+		margin:0px 10px;
+		
+	}
+	.text-container{
+		position: absolute;
+		left:13%;
+		top:70%;
+		transform:translate(-13%,-42%);
+	}
+	.hire-btn{
+		border:2px solid #373636;
+		color:#ecdfdf;
+		background-color:transparent;
+		
+	}
+	.down-cv{
+		background-color:#ffffff;
+		color:#0d334d;	
+		border:none;
+	}
+	button:active{
+		transform:scale(1.1);
+
+	}
+	footer{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		padding: 15px;
+		margin-top: 600px;
+		margin-bottom: 0%;
+		background-color: #001b4b;
+		border-top: 1px solid #272729;
+	}
+	.copyright{
+		color:#ffffff;
+		
+	}
+
+
+	.body{
+		margin:0;
+		padding:0;
+	}
+	ul{
+		list-style:none;
+	}
+	a{
+		text-decoration:none;
+	}
+	section{
+		width:100%;
+		height:100vh;
+   	 	background-image: url("model.png");
+		background: size 100px;
+		background-repeat:no-repeat;
+		position: absolute;
+	}
+	nav {
+		display: flex;
+		justify-content: space-between;
+		align-items:center;
+		height:60px;
+		background-color:#0d334d;
+		box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+		padding:0px 25%;
+	
+	}
+	nav ul{
+		display: flex;
+	}
+	.toggle{
+		display: none;
+	}
+	
+	nav ul li a{
+		margin:30px;
+		font-family:myriad pro regular;
+		color:#ffffff;
+		font-size: 15px;
+		font-weight:700;
+		
+	}
+
+	.active1{
+		color:#ffffff;
+		font-weight:100;
+	}
+
+	.active2{
+		color:#ffffff;
+		font-weight:100;
+	}
+
+	.active3{
+		color:#ffffff;
+		font-weight:100;
+	}
+
+	.active4{
+		color:#ffffff;
+		font-weight:100;
+	}
+	.model{
+		height:330px;
+		position:absolute;
+		bottom:40px;
+		left:100%;
+		transform: translateX(-75%);
+	}
+	.text-container p:nth-child(1){
+		font-family: calibri;
+		font-weight:bold;
+		color:#0d334d;
+		font-size:22px;
+		position: relative;
+		right: 15%;
+	}
+	.text-container p:nth-child(2){
+		font-family:calibri;
+		font-weight:bold;
+		letter-spacing:1px;
+		color:#0d334d;
+		font-size:40px;
+		position: relative;
+		right: 15%;
+		
+	}
+	.text-container p:nth-child(3){
+		font-family: myriad pro regular;
+		color: #0d334d;
+		font-size:30px;
+		line-height:30px;
+		position: relative;
+		right: 15%;
+	}
+	
+	.text-container p{
+		margin:45px 0px 25px;
+		line-height:0px;
+	}
+	.text-container button{
+		width:130px;
+		height:42px;
+		border-radius:10px;
+		font-family:calibri;
+		font-weight:bold;
+		font-size: 14px;
+		outline:none;
+		margin:0px 10px;
+		
+	}
+	.text-container{
+		position: absolute;
+		left:13%;
+		top:70%;
+		transform:translate(-13%,-42%);
+	}
+	.hire-btn{
+		border:2px solid #373636;
+		color:#ecdfdf;
+		background-color:transparent;
+		
+	}
+	.down-cv{
+		background-color:#ffffff;
+		color:#0d334d;	
+		border:none;
+	}
+	button:active{
+		transform:scale(1.1);
+
+	}
+	footer{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		padding: 15px;
+		margin-top: 600px;
+		margin-bottom: 0%;
+		background-color: #001b4b;
+		border-top: 1px solid #272729;
+	}
+	.copyright{
+		color:#ffffff;
+		
+	}
+	
+
